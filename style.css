@@ -1,0 +1,113 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    border: 0;
+}
+.cabecalho
+{
+    background-color: white;
+}
+.cabecalho_secao1
+{
+    background-image: linear-gradient(blue, rgb(20, 138, 248));
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 10px;
+}
+.logo_redesocial
+{
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.logo_redesocial:hover
+{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.cabecalho_secao1_5
+{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding-bottom: 3px;
+}
+.logo_contato
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+.texto_contato
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.cabecalho_secao2
+{
+    background-color: white;
+}
+.logo_site
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+}
+.navegacao
+{
+    background-image: linear-gradient(rgb(20, 138, 248), blue);
+    text-align: center;
+}
+.navegacao_item
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: inline;
+    color: white;
+    background-color: transparent;
+    padding: 25px 40px;
+    cursor: pointer;
+}
+.navegacao_item:hover
+{
+    color: blue;
+    background-color: white;
+}
+
+.conteudo
+{
+    background-color: white;
+}
+
+.rodape
+{
+    background-image: linear-gradient(rgb(20, 138, 248), blue);
+}
+.rodape_secao1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.rodape_secao2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
