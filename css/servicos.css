@@ -1,0 +1,50 @@
+.conteudo
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(blue,rgb(20, 138, 248));
+}
+.conteudo_servico_titulo1
+{
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+.conteudo_servico1
+{
+    display: flex;
+    justify-content: center;
+}
+.servico_img
+{
+    margin-top: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    height: 600px;
+    width: 400px;
+    border-radius: 8px;
+}
+.conteudo_servico2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.conteudo_servico_titulo
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.conteudo_servico_paragrafo
+{
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 18px;
+}

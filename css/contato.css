@@ -1,0 +1,63 @@
+.formulario_paciente
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(rgb(20, 138, 248), blue);
+    width: 770px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.formulario_titulo
+{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.formulario_paragrafo
+{
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.paragrafo_input
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.caixa_input
+{
+    height: 25px;
+    width: 450px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+.caixa_textarea
+{
+    width: 450px;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+}
+.formulario_botao
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.formulario_botao:hover
+{
+    color: blue;
+    background-color: white;
+}

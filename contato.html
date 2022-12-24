@@ -1,131 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-         <meta charset="UTF-8">
-         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link rel="stylesheet" href="style.css" type="text/css">
-          <link rel="shortcut icon" href="icones_logos/favicon-48x48.ico" type="image/x-icon">
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link type="text/css" rel="stylesheet" href="css/contato.css">
+        <script type="text/javascript" src="js/index.js"></script>
+        <link rel="shortcut icon" href="icones_logos/favicon-48x48.ico" type="image/x-icon">
         <title>Nutricionista Edna Gonzales</title>
-
-        <script type="text/javascript">
-
-            function limpar()
-            {
-                document.form1.txtnome.style.background="white";
-                document.form1.txttelefone.style.background="white";
-                document.form1.txtemail.style.background="white";
-            }
-
-            function verificar()
-            {
-                limpar()
-                
-                var paciente_nome, paciente_telefone, paciente_email, paciente_mensagem ;
-
-                paciente_nome = document.form1.txtnome.value ;
-                if( paciente_nome.length == 0 )
-                {
-                    alert("Preencha o campo nome");
-                    document.form1.txtnome.style.background="blue";
-                    document.form1.txtnome.focus();
-                    return false;
-                }
-
-                paciente_email = document.form1.txtemail.value ;
-                if( paciente_email.indexOf("@") < 0 )
-                {
-                    alert("Preencha corretamente o campo e-mail");
-                    document.form1.txtemail.style.background="blue";
-                    document.form1.txtemail.value="";
-                    document.form1.txtemail.focus();
-                    return false;
-                }
-
-                paciente_telefone = document.form1.txttelefone.value ;
-                if( isNaN(paciente_telefone) || paciente_telefone.length == 0 )
-                {
-                    alert("Preencha corretamente o campo telefone");
-                    document.form1.txttelefone.style.background="blue";
-                    document.form1.txttelefone.value="";
-                    document.form1.txttelefone.focus();
-                    return false;
-                }
-
-                paciente_mensagem = document.form1.txtmensagem.value ;
-
-                document.form1.submit();
-            }
-
-        </script>
-
-        <style>
-
-            .formulario_paciente
-            {
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                color: white;
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 30px;
-                margin-bottom: 30px;
-                background-image: linear-gradient(rgb(20, 138, 248), blue);
-                width: 770px;
-                padding-left: 20px;
-                padding-right: 20px;
-                border-radius: 5px;
-            }
-            .formulario_titulo
-            {
-                padding-top: 20px;
-                padding-bottom: 15px;
-                text-align: center;
-            }
-            .formulario_paragrafo
-            {
-                text-align: justify;
-                padding-top: 10px;
-                padding-bottom: 15px;
-            }
-            .paragrafo_input
-            {
-                padding-top: 10px;
-                padding-bottom: 10px;
-            }
-            .caixa_input
-            {
-                height: 25px;
-                width: 450px;
-                border-radius: 5px;
-                outline: none;
-                padding: 10px;
-            }
-            .caixa_textarea
-            {
-                width: 450px;
-                border-radius: 5px;
-                outline: none;
-                padding: 10px;
-            }
-            .formulario_botao
-            {
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                color: white;
-                padding: 10px 20px;
-                background-color: transparent;
-                border: 2px solid white;
-                border-radius: 5px;
-                cursor: pointer;
-                margin-top: 10px;
-            }
-            .formulario_botao:hover
-            {
-                color: blue;
-                background-color: white;
-            }
-
-        </style>
 
     </head>
     <body>
