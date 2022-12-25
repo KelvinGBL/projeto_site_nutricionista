@@ -1,6 +1,9 @@
-.formulario_paciente
-{
+form{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.formulario_paciente{
     color: white;
     display: block;
     margin-left: auto;
@@ -21,25 +24,29 @@
 }
 .formulario_paragrafo
 {
+    line-height: 1.2em;
     text-align: justify;
     padding-top: 10px;
     padding-bottom: 15px;
 }
-.paragrafo_input
-{
+label{
+    font-size: 1.2em;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .caixa_input
 {
-    height: 25px;
+    font-size: 1em;
     width: 450px;
     border-radius: 5px;
     outline: none;
-    padding: 10px;
+    padding: 8px 10px;
 }
 .caixa_textarea
 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    resize: vertical;
     width: 450px;
     border-radius: 5px;
     outline: none;
@@ -47,7 +54,9 @@
 }
 .formulario_botao
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
     color: white;
     padding: 10px 20px;
     background-color: transparent;

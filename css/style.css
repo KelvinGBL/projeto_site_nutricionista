@@ -1,13 +1,11 @@
-*
-{
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    text-decoration: 0;
+    text-decoration: none;
     border: 0;
 }
-.cabecalho
-{
+header{
     background-color: white;
 }
 .cabecalho_secao1
@@ -82,32 +80,43 @@
     background-color: white;
 }
 
-.conteudo
-{
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
 }
-
-.rodape
-{
-    background-image: linear-gradient(rgb(20, 138, 248), blue);
-}
-.rodape_secao1
-{
+footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(rgb(20, 138, 248), blue);
     color: white;
+}
+footer ul{
+    list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
+    gap: 0.5em;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.rodape_secao2
-{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+footer ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+footer a{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+footer a:hover{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+footer img{
+    width: 100%;
+}
+.rodape_secao2{
     text-align: center;
     padding-bottom: 20px;
 }
