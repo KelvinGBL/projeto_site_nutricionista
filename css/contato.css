@@ -1,61 +1,54 @@
+.formulario_paciente{
+    color: white;
+    margin: 30px auto;
+    background-image: linear-gradient(rgb(20, 138, 248), blue);
+    max-width: 780px;
+    padding: 2.5em;
+    border-radius: 5px;
+}
 form{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
 }
-.formulario_paciente{
-    color: white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-image: linear-gradient(rgb(20, 138, 248), blue);
-    width: 770px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
-}
-.formulario_titulo
-{
-    padding-top: 20px;
+.formulario_paciente h1{
+    font-size: 2em;
     padding-bottom: 15px;
     text-align: center;
 }
-.formulario_paragrafo
-{
-    line-height: 1.2em;
+.formulario_paciente p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
     text-align: justify;
     padding-top: 10px;
-    padding-bottom: 15px;
 }
-label{
+form label{
     font-size: 1.2em;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.caixa_input
+form .caixa_input
 {
     font-size: 1em;
-    width: 450px;
+    width: 100%;
     border-radius: 5px;
     outline: none;
     padding: 8px 10px;
 }
-.caixa_textarea
+form .caixa_textarea
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     resize: vertical;
-    width: 450px;
+    width: 100%;
     border-radius: 5px;
     outline: none;
     padding: 10px;
 }
-.formulario_botao
+.form_botao
 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     color: white;
     padding: 10px 20px;
@@ -65,7 +58,7 @@ label{
     cursor: pointer;
     margin-top: 10px;
 }
-.formulario_botao:hover
+.form_botao:hover
 {
     color: blue;
     background-color: white;
