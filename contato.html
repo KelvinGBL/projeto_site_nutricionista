@@ -14,73 +14,79 @@
     </head>
     <body>
 
-        <header class="cabecalho">
+        <header>
 
-            <section class="cabecalho_secao1">
-
-                <a href="https://www.facebook.com/edna.gonzales.58" target="_blank">
-                    <img class="logo_redesocial" src="icones_logos/logo_facebook.png" alt="Logo Facebook">
-                </a>
-                <a href="https://www.instagram.com/gonzales.edna/" target="_blank">
-                    <img class="logo_redesocial" src="icones_logos/logo_instagram.png" alt="Logo Instagram">
-                </a>
-                <a href="https://br.linkedin.com/in/edna-santana-gonzales-37316647" target="_blank">
-                    <img class="logo_redesocial" src="icones_logos/logo_linkidin.png" alt="Logo Linkedin">
-                </a>
-                <a href="https://www.tiktok.com/@storynutri" target="_blank">
-                    <img class="logo_redesocial" src="icones_logos/logo_tiktok.png" alt="Logo TikTok">
-                </a>
-
-                <section class="cabecalho_secao1_5">
-
-                    <img class="logo_contato" src="icones_logos/logo_email.png" alt="E-mail">
-                    <p class="texto_contato">237602021@eniac.edu.br</p>
-                    <img class="logo_contato" src="icones_logos/logo_whatsapp.png" alt="Whatsapp">
-                    <p class="texto_contato">(11) 95458-4105</p>
-
+            <section class="conteiner1">
+                <section class="box1">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/edna.gonzales.58" target="_blank">
+                                <img class="icon-size" src="icones_logos/logo_facebook.png" alt="Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/gonzales.edna/" target="_blank">
+                                <img class="icon-size" src="icones_logos/logo_instagram.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://br.linkedin.com/in/edna-santana-gonzales-37316647" target="_blank">
+                                <img class="icon-size" src="icones_logos/logo_linkidin.png" alt="Linkedin">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@storynutri" target="_blank">
+                                <img class="icon-size" src="icones_logos/logo_tiktok.png" alt="TikTok">
+                            </a>
+                        </li>
+                    </ul>
                 </section>
-
+                <section class="box2">
+                    <img class="icon-size" src="icones_logos/logo_email.png" alt="E-mail">
+                    <p>237602021@eniac.edu.br</p>
+                    <img class="icon-size" src="icones_logos/logo_whatsapp.png" alt="Whatsapp">
+                    <p>(11) 95458-4105</p>
+                </section>
+            </section>
+            <section class="conteiner2">
+                <img class="logo_site" src="icones_logos/logo_sitee.png" alt="Logo da Nutricionista Edna Gonzales">
             </section>
 
-            <section class="cabecalho_secao2">
-                <img class="logo_site" src="icones_logos/logo_sitee.png" alt="">
-            </section>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="home.html" target="_self">
-                            Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="sobre.html" target="_self">
-                            Sobre
-                        </a>
-                    </li>
-                    <li>
-                        <a href="servicos.html" target="_self">
-                            Serviços
-                        </a>
-                    </li>
-                    <li>
-                        <a href="contato.html" target="_self">
-                            Contato
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         </header>
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="home.html" target="_self">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="sobre.html" target="_self">
+                        Sobre
+                    </a>
+                </li>
+                <li>
+                    <a href="servicos.html" target="_self">
+                        Serviços
+                    </a>
+                </li>
+                <li>
+                    <a href="contato.html" target="_self">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
 
         <main>
 
             <section class="formulario_paciente">
-
                 <h1 class="formulario_titulo">Agende a sua Consulta</h1>
                 <p class="formulario_paragrafo">
                     Fico muito feliz que tenha chegado até aqui. Você está há um passo de uma vida mais saudável. Entre em contato com meu atendimento especializado pelo telefone abaixo ou informe seus dados de contato que ligaremos para você para agendar sua consulta.
                 </p>
-
                 <form action="gravar.jsp" method="post" name="form1">
 
                     <label for="nome">Nome:</label>
@@ -96,7 +102,7 @@
                     <textarea id="mensagem" class="caixa_textarea" name="txtmensagem" cols="40" rows="10"></textarea>
 
                     <input class="form_botao" type="button" value="Enviar" onclick="verificar()">
-
+                    
                 </form>
 
                 <p>

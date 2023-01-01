@@ -9,57 +9,54 @@
 }
 /* Cabeçalho */
 header{
-    background-color: white;
-}
-.cabecalho_secao1
-{
-    background-image: linear-gradient(blue, rgb(20, 138, 248));
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 10px 10px;
-}
-.logo_redesocial
-{
-    margin-left: 5px;
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
-}
-.logo_redesocial:hover
-{
-    border: 2px solid white;
-    border-radius: 50%;
-}
-.cabecalho_secao1_5
-{
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-    padding-bottom: 3px;
-}
-.logo_contato
-{
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 40px;
-    width: 40px;
-}
-.texto_contato
-{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
     color: white;
 }
-.cabecalho_secao2
-{
+header .conteiner1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(blue, rgb(20, 138, 248));
+    padding: 10px 10px;
+}
+header .conteiner1 .box1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4em;
+    align-items: center;
+    list-style: none;
+}
+header .conteiner1 .box1 ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .conteiner1 .box1 ul li a .icon-size{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+header .conteiner1 .box1 ul li a .icon-size:hover{
+    border: 2px solid white;
+}
+header .conteiner1 .box2{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+header .conteiner1 .box2 .icon-size{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+header .conteiner2{
     background-color: white;
 }
-.logo_site
-{
+header .conteiner2 .logo_site{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
+    margin: 0 auto;
     width: 400px;
 }
 /* End Cabeçalho*/
@@ -67,21 +64,22 @@ header{
 /* Barra de Navegação */
 nav{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     background-image: linear-gradient(rgb(20, 138, 248), blue);
     height: 75px;
 }
 nav ul{
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 4em;
+    align-items: center;
+    gap: 3em;
     list-style: none;
 }
-nav a{
+nav ul li a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
+    text-align: center;
     color: white;
     background-image: linear-gradient(white,white);
     background-position: center bottom;
@@ -92,7 +90,7 @@ nav a{
     cursor: pointer;
     transition: 0.4s;
 }
-nav a:hover{
+nav ul li a:hover{
     color: blue;
     background-size: 100% 100%;
     transition: 0.4s;
@@ -109,11 +107,11 @@ footer{
     color: white;
 }
 footer ul{
-    list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5em;
+    list-style: none;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -135,7 +133,7 @@ footer a:hover{
 footer img{
     width: 100%;
 }
-.rodape_secao2{
+footer .rodape_secao2{
     text-align: center;
     padding-bottom: 20px;
 }
