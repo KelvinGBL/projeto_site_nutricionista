@@ -44,3 +44,13 @@ function verificar()
 
     document.form1.submit();
 }
+
+// Menu Mobile
+function openMenu(){
+    var nav_mobile = document.getElementById("nav-mobile");
+    nav_mobile.style.right = "0";
+}
+function closeMenu(){
+    var nav_mobile = document.getElementById("nav-mobile");
+    nav_mobile.style.right = "-200px";
+}

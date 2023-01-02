@@ -53,8 +53,8 @@
             </section>
 
         </header>
-        <nav>
-
+        <!-- Nav Site-->
+        <nav class="nav-site">
             <ul>
                 <li>
                     <a href="home.html" target="_self">
@@ -76,10 +76,45 @@
                         Contato
                     </a>
                 </li>
+                <li class="icon-menu">
+                    <button onclick="openMenu()">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </li>
             </ul>
-
         </nav>
-
+        <!-- End Nav Site-->
+        <!-- Nav Mobile-->
+        <nav id="nav-mobile">
+            <ul>
+                <li class="icon-menu-exit">
+                    <button onclick="closeMenu()">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </li>
+                <li>
+                    <a href="home.html" target="_self">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="sobre.html" target="_self">
+                        Sobre
+                    </a>
+                </li>
+                <li>
+                    <a href="servicos.html" target="_self">
+                        Serviços
+                    </a>
+                </li>
+                <li>
+                    <a href="contato.html" target="_self">
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End Nav Mobile-->
         <main>
 
             <section class="formulario_paciente">
