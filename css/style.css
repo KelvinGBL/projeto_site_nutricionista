@@ -7,7 +7,6 @@
     text-decoration: none;
     border: 0;
 }
-/* Cabeçalho */
 header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
@@ -34,12 +33,12 @@ header .conteiner1 .box1 ul li a{
     align-items: center;
 }
 header .conteiner1 .box1 ul li a .icon-size{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
 header .conteiner1 .box1 ul li a .icon-size:hover{
-    border: 2px solid white;
+    border: 5px solid white;
 }
 header .conteiner1 .box2{
     display: flex;
@@ -47,8 +46,8 @@ header .conteiner1 .box2{
     gap: 0.5em;
 }
 header .conteiner1 .box2 .icon-size{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
 }
 header .conteiner2{
@@ -59,7 +58,6 @@ header .conteiner2 .logo_site{
     margin: 0 auto;
     width: 400px;
 }
-/* End Cabeçalho*/
 
 /* Barra de Navegação */
 nav{
@@ -77,17 +75,18 @@ nav ul{
     list-style: none;
 }
 nav ul li a{
+    display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
     text-align: center;
     color: white;
     background-image: linear-gradient(white,white);
-    background-position: center bottom;
+    background-position: left bottom;
     background-repeat: no-repeat;
-    background-size: 100% 0%;
+    background-size: 100% 10%;
     border-radius: 4px;
+    width: 140px;
     padding: 5px 10px;
-    cursor: pointer;
     transition: 0.4s;
 }
 nav ul li a:hover{
@@ -106,34 +105,55 @@ footer{
     background-image: linear-gradient(rgb(20, 138, 248), blue);
     color: white;
 }
-footer ul{
+footer .conteiner1 ul{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5em;
     list-style: none;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
-footer ul li{
+footer .conteiner1 ul li{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 0.5em;
+    justify-content: center;
+    gap: 1em;
 }
-footer a{
-    height: 40px;
+footer .conteiner1 ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
+    color: white;
+}
+footer .conteiner1 ul li a:hover{
+    text-decoration: none;
+}
+footer .conteiner1 ul li a .icon-size{
+    display: block;
     width: 40px;
-    cursor: pointer;
-}
-footer a:hover{
-    border: 2px solid white;
+    height: 40px;
     border-radius: 50%;
 }
-footer img{
-    width: 100%;
+footer .conteiner1 ul li a p{
+    display: block;
+    background-image: linear-gradient(white,white);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 0% 10%;
+    font-size: 1.2em;
+    padding-bottom: 0.2em;
+    transition: 0.4s;
 }
-footer .rodape_secao2{
+footer .conteiner1 ul li a:hover > p{
+    background-size: 100% 15%;
+    transition: 0.4s;
+}
+footer .conteiner2{
     text-align: center;
     padding-bottom: 20px;
+}
+footer .conteiner2 span{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
