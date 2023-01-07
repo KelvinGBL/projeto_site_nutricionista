@@ -55,10 +55,15 @@ header .conteiner1 .box2 .icon-size{
 header .conteiner2{
     background-color: white;
 }
+header .conteiner2 a{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
 header .conteiner2 .logo_site{
     display: block;
     margin: 0 auto;
-    width: 400px;
+    width: 100%;
 }
 
 /* Nav Site*/
@@ -209,7 +214,6 @@ footer .conteiner2 span{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 1.2em;
 }
-
 @media screen and (max-width: 800px){
     .nav-site ul li a{
         display: none;

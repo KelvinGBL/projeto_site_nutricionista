@@ -15,7 +15,6 @@
     <body>
 
         <header>
-
             <section class="conteiner1">
                 <section class="box1">
                     <ul>
@@ -49,11 +48,14 @@
                 </section>
             </section>
             <section class="conteiner2">
-                <img class="logo_site" src="icones_logos/logo_sitee.png" alt="Logo da Nutricionista Edna Gonzales">
+                <section class="box1">
+                    <a href="home.html" target="_self">
+                        <img class="logo_site" src="icones_logos/logo_da_nutricionista.png" alt="Logo da Nutricionista Edna Gonzales">
+                    </a>
+                </section>
             </section>
-
         </header>
-        <!-- Nav Site-->
+        
         <nav class="nav-site">
             <ul>
                 <li>
@@ -83,8 +85,7 @@
                 </li>
             </ul>
         </nav>
-        <!-- End Nav Site-->
-        <!-- Nav Mobile-->
+
         <nav id="nav-mobile">
             <ul>
                 <li class="icon-menu-exit">
@@ -114,16 +115,14 @@
                 </li>
             </ul>
         </nav>
-        <!-- End Nav Mobile-->
-        <main>
 
+        <main>
             <section class="formulario_paciente">
                 <h1 class="formulario_titulo">Agende a sua Consulta</h1>
                 <p class="formulario_paragrafo">
                     Fico muito feliz que tenha chegado até aqui. Você está há um passo de uma vida mais saudável. Entre em contato com meu atendimento especializado pelo telefone abaixo ou informe seus dados de contato que ligaremos para você para agendar sua consulta.
                 </p>
                 <form action="gravar.jsp" method="post" name="form1">
-
                     <label for="nome">Nome:</label>
                     <input id="nome" class="caixa_input" type="text" name="txtnome" autofocus>
 
@@ -137,7 +136,6 @@
                     <textarea id="mensagem" class="caixa_textarea" name="txtmensagem" cols="40" rows="10"></textarea>
 
                     <input class="form_botao" type="button" value="Enviar" onclick="verificar()">
-                    
                 </form>
 
                 <p>
@@ -189,6 +187,6 @@
                 </span>
             </section>
         </footer>
-    
+        
     </body>
 </html>
