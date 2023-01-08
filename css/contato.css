@@ -1,42 +1,46 @@
-.formulario_paciente{
+main .conteiner1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 30px 0
+}
+main .conteiner1 .box1{
     color: white;
-    margin: 30px auto;
-    background-image: linear-gradient(rgb(20, 138, 248), blue);
-    max-width: 780px;
+    background-color: rgb(137, 196, 48);
+    width: 600px;
     padding: 2.5em;
     border-radius: 5px;
 }
-form{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-}
-.formulario_paciente h1{
+main .conteiner1 .box1 h1{
     font-size: 2em;
     padding-bottom: 15px;
     text-align: center;
 }
-.formulario_paciente p{
+main .conteiner1 .box1 p{
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     line-height: 1.5em;
     text-align: justify;
     padding-top: 10px;
 }
-form label{
+main .conteiner1 .box1 form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main .conteiner1 .box1 form label{
     font-size: 1.2em;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-form .caixa_input
-{
+main .conteiner1 .box1 form .caixa_input{
     font-size: 1em;
     width: 100%;
     border-radius: 5px;
     outline: none;
     padding: 8px 10px;
 }
-form .caixa_textarea
-{
+main .conteiner1 .box1 form .caixa_textarea{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     resize: vertical;
@@ -45,8 +49,7 @@ form .caixa_textarea
     outline: none;
     padding: 10px;
 }
-.form_botao
-{
+main .conteiner1 .box1 .form_botao{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     font-weight: bold;
@@ -58,8 +61,16 @@ form .caixa_textarea
     cursor: pointer;
     margin-top: 10px;
 }
-.form_botao:hover
-{
-    color: blue;
+main .conteiner1 .box1 .form_botao:hover{
+    color: rgb(137, 196, 48);
     background-color: white;
+}
+main .conteiner1 .box2{
+    width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+main .conteiner1 .box2 iframe{
+    height: 100%;
+    width: 100%;
 }

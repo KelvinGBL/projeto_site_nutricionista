@@ -1,8 +1,8 @@
 function limpar()
 {
-    document.form1.txtnome.style.background="white";
-    document.form1.txttelefone.style.background="white";
-    document.form1.txtemail.style.background="white";
+    document.form1.txtnome.style.border="2px solid white";
+    document.form1.txtemail.style.border="2px solid white";
+    document.form1.txttelefone.style.border="2px solid white";
 }
 
 function verificar()
@@ -15,7 +15,7 @@ function verificar()
     if( paciente_nome.length == 0 )
     {
         alert("Preencha o campo nome");
-        document.form1.txtnome.style.background="blue";
+        document.form1.txtnome.style.border="2px solid red";
         document.form1.txtnome.focus();
         return false;
     }
@@ -24,7 +24,7 @@ function verificar()
     if( paciente_email.indexOf("@") < 0 )
     {
         alert("Preencha corretamente o campo e-mail");
-        document.form1.txtemail.style.background="blue";
+        document.form1.txtemail.style.border="2px solid red";
         document.form1.txtemail.value="";
         document.form1.txtemail.focus();
         return false;
@@ -34,7 +34,7 @@ function verificar()
     if( isNaN(paciente_telefone) || paciente_telefone.length == 0 )
     {
         alert("Preencha corretamente o campo telefone");
-        document.form1.txttelefone.style.background="blue";
+        document.form1.txttelefone.style.border="2px solid red";
         document.form1.txttelefone.value="";
         document.form1.txttelefone.focus();
         return false;

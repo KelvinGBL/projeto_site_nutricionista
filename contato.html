@@ -7,8 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/contato.css">
-        <script type="text/javascript" src="js/index.js"></script>
-        <link rel="shortcut icon" href="icones_logos/favicon-48x48.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="icones_logos/favicon.ico" type="image/x-icon">
         <title>Nutricionista Edna Gonzales</title>
 
     </head>
@@ -18,7 +17,7 @@
             <section class="conteiner1">
                 <section class="box1">
                     <a href="home.html" target="_self">
-                        <img class="logo_site" src="icones_logos/Logo Nutricionista Edna Gonzales.png" alt="Logo da Nutricionista Edna Gonzales">
+                        <img class="logo_site" src="icones_logos/logo_edna_gonzales.svg" alt="Logo da Nutricionista Edna Gonzales">
                     </a>
                 </section>
             </section>
@@ -85,39 +84,41 @@
         </nav>
 
         <main>
-            <section class="formulario_paciente">
-                <h1 class="formulario_titulo">Agende a sua Consulta</h1>
-                <p class="formulario_paragrafo">
-                    Fico muito feliz que tenha chegado até aqui. Você está há um passo de uma vida mais saudável. Entre em contato com meu atendimento especializado pelo telefone abaixo ou informe seus dados de contato que ligaremos para você para agendar sua consulta.
-                </p>
-                <form action="gravar.jsp" method="post" name="form1">
-                    <label for="nome">Nome:</label>
-                    <input id="nome" class="caixa_input" type="text" name="txtnome" autofocus>
+            <section class="conteiner1">
+                <section class="box1">
+                    <h1>Agende a sua Consulta</h1>
+                    <p>
+                        Fico muito feliz que tenha chegado até aqui. Você está há um passo de uma vida mais saudável. Entre em contato com meu atendimento especializado pelo telefone abaixo ou informe seus dados de contato que ligaremos para você para agendar sua consulta.
+                    </p>
+                    <form action="gravar.jsp" method="post" name="form1">
+                        <label for="nome">Nome:</label>
+                        <input id="nome" class="caixa_input" type="text" name="txtnome">
 
-                    <label for="email">E-mail:</label>
-                    <input id="email" class="caixa_input" type="email" name="txtemail">
+                        <label for="email">E-mail:</label>
+                        <input id="email" class="caixa_input" type="email" name="txtemail">
+                        
+                        <label for="telefone">Telefone:</label>
+                        <input id="telefone" class="caixa_input" type="text" name="txttelefone">
 
-                    <label for="telefone">Telefone:</label>
-                    <input id="telefone" class="caixa_input" type="text" name="txttelefone"> 
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" class="caixa_textarea" name="txtmensagem" cols="40" rows="10"></textarea>
 
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" class="caixa_textarea" name="txtmensagem" cols="40" rows="10"></textarea>
-
-                    <input class="form_botao" type="button" value="Enviar" onclick="verificar()">
-                </form>
-
-                <p>
-                    Agende sua consulta e descubra o que a nutrição pode fazer por você e sua saúde. Alimentar-se de forma adequada é fundamental para se obter mais qualidade de vida.
-                </p>
-                <p>
-                    A nutrição individual  respeita cada paciente e busca a melhor alimentação para você. Um mesmo alimento pode ser excelente para um e péssimo para outro.
-                </p>
-                <p>
-                    Através de uma Avaliação Nutricional de alimentos que mais se adaptam a você e aliado ao seu objetivo principal buscar uma alimentação personalizada.
-                </p>
-
+                        <input class="form_botao" type="button" value="Enviar" onclick="verificar()">
+                    </form>
+                    <p>
+                        Agende sua consulta e descubra o que a nutrição pode fazer por você e sua saúde. Alimentar-se de forma adequada é fundamental para se obter mais qualidade de vida.
+                    </p>
+                    <p>
+                        A nutrição individual  respeita cada paciente e busca a melhor alimentação para você. Um mesmo alimento pode ser excelente para um e péssimo para outro.
+                    </p>
+                    <p>
+                        Através de uma Avaliação Nutricional de alimentos que mais se adaptam a você e aliado ao seu objetivo principal buscar uma alimentação personalizada.
+                    </p>
+                </section>
+                <section class="box2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3659.936968636561!2d-46.533773!3d-23.462738!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef5424566a833%3A0x61f72da0cf24f0fb!2sR.%20Profa.%20Anita%20Guastini%20Eiras%2C%2071%20-%20Jardim%20Zaira%2C%20Guarulhos%20-%20SP%2C%2007094-010%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1673188552711!5m2!1spt-BR!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
             </section>
-
         </main>
 
         <footer>
@@ -155,6 +156,7 @@
                 </span>
             </section>
         </footer>
-        
+
+        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>

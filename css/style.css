@@ -15,9 +15,10 @@ header{
     color: white;
 }
 header .conteiner1{
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/header_background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 3.5em;
 }
 header .conteiner1 a{
     display: block;
@@ -81,7 +82,7 @@ header .conteiner1 .logo_site{
 
 /* Nav Mobile */
 #nav-mobile{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -190,5 +191,8 @@ footer .conteiner2 span{
     }
     .nav-site ul li button{
         margin-right: 1em;
+    }
+    #nav-mobile{
+        display: flex;
     }
 }
