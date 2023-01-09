@@ -196,3 +196,31 @@ footer .conteiner2 span{
         display: flex;
     }
 }
+@media screen and (max-width: 700px) {
+    footer .conteiner1 ul li a p{
+        font-size: 1em;
+    }
+    footer .conteiner2 span{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 580px) {
+    footer .conteiner1 ul li a p{
+        font-size: 0.8em;
+    }
+    footer .conteiner2 span{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:480px) {
+    header .conteiner1 a{
+        width: 220px;
+    }
+    footer .conteiner1 ul{
+        gap: 1em;
+    }
+    footer .conteiner1 ul li a p{
+        display: none;
+        font-size: 0.8em;
+    }
+}
